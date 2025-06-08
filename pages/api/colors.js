@@ -2,14 +2,10 @@ import mysql from 'mysql2/promise';
 
 export default async function handler(req, res) {
   const connection = await mysql.createConnection({
-    // host: 'localhost',
-    // user: 'root',
-    // password: '',
-    // database: 'SellerShopee',
-      host: 'sql300.infinityfree.com',
-      user: 'if0_39186742',
-      password: '7XczsFrOQa6lXf',
-      database: 'if0_39186742_sellershopee',
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'SellerShopee',
   });
 
   try {
