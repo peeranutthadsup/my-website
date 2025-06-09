@@ -100,7 +100,7 @@ export default async function handler(req, res) {
 
       const [result] = await connection.execute(
         `INSERT INTO product 
-          (product_key, product_name, product_category_id, color_id, qty, stock, purchase_price, lot, shipping_cost_piece, total_cost_including_shipping, sell_price_1, sell_price_2, sell_price_3, product_statusis_shopee,is_lazada)
+          (product_key, product_name, product_category_id, color_id, qty, stock, purchase_price, lot, shipping_cost_piece, total_cost_including_shipping, sell_price_1, sell_price_2, sell_price_3, product_status,is_shopee,is_lazada)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?,?)`,
         [
           product_key,

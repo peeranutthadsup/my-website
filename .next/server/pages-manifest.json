@@ -1,6 +1,13 @@
 {
+  "/api/colors": "pages/api/colors.js",
   "/_app": "pages/_app.js",
+  "/api/product_categories": "pages/api/product_categories.js",
+  "/api/products": "pages/api/products.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/product/add": "pages/product/add.html",
+  "/product/edit/[id]": "pages/product/edit/[id].html",
+  "/product/list": "pages/product/list.html",
   "/_document": "pages/_document.js",
-  "/ProductList": "pages/ProductList.js"
+  "/404": "pages/404.html"
 }
